@@ -72,7 +72,7 @@ export const GameProvider = (props) => {
         {
             Logo: playngo,
             Url: "",
-            platform: "PLAYNGO",
+            platform: "Slotmill",
         },
         {
             Logo: logo8,
