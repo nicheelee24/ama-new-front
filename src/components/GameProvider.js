@@ -42,7 +42,7 @@ export const GameProvider = (props) => {
         {
             Logo: logo16,
             Url: "",
-            platform: "AV",
+            platform: "DCACE",
         },
         // {
         //     Logo: logo19,
