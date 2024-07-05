@@ -48,7 +48,7 @@ export const GameList = () => {
             "JDB",
             "JILI",
             "KINGMAKER",
-            "YG",
+            "PG",
             "PLAY8",
             "PP",
             "PT",
@@ -56,9 +56,10 @@ export const GameList = () => {
             "SPADE",
             "YESBINGO",
             "DCACE",
-            "Slotmill"
+            "Slotmill",
+            "yg"
         ],
-        TABLE: ["JILI", "KINGMAKER", "LUCKYPOKER", "LUDO", "YG", "RT"],
+        TABLE: ["JILI", "KINGMAKER", "LUCKYPOKER", "LUDO", "PG", "RT"],
         // VIRTUAL: ["SABA"],
     };
 

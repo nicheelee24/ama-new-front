@@ -77,7 +77,7 @@ export const GameProvider = (props) => {
         {
             Logo: logo8,
             Url: "",
-            platform: "YG",
+            platform: "yg",
         },
         {
             Logo: logo24,

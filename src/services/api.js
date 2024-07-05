@@ -49,3 +49,6 @@ export async function getGames({page, limit, gameType, platform}) {
 export async function getGamePlayUrl(id) {
   return await api.get(`/game/play/${id}`);
 }
+export async function getPlayUrl(id) {
+    return await api.get(`/game/playnew/${id}`);
+  }
