@@ -102,7 +102,7 @@ export default function Login({ open, setOpen, type, setType }) {
         });
 
     const failConnection = () =>
-        toast.error(t("Signup first"), {
+        toast.error(t("Signup first..."), {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -120,6 +120,7 @@ export default function Login({ open, setOpen, type, setType }) {
     // }
 
     const onLogin = async (e) => {
+        console.log("login button clicked..");
         e.preventDefault();
         const phone = phoneRef.current.value;
         const password = passwordRef.current.value;
@@ -133,6 +134,8 @@ export default function Login({ open, setOpen, type, setType }) {
             failLogIn();
             return;
         }
+
+        console.log("phone and password are valid..");
 
         const options = {
             method: "POST",
@@ -181,7 +184,7 @@ export default function Login({ open, setOpen, type, setType }) {
                 console.error(error);
                 failConnection();
 
-                toast.error("Log In Failed.", {
+                toast.error("Log In Failed....", {
                     position: "top-right",
                     autoClose: 5000,
                     hideProgressBar: false,
@@ -363,7 +366,7 @@ export default function Login({ open, setOpen, type, setType }) {
                                             className="btn-f1-1 w-full rounded-lg mt-4 mb-9"
                                             onClick={onLogin}
                                         >
-                                            {t("Sign In")}
+                                            {t("Sign Inn")}
                                         </button>
                                         <p className="dont-have-p">
                                             {t("Don’t have an account! ")}
