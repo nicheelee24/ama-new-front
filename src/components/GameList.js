@@ -174,6 +174,7 @@ export const GameList = () => {
         if (res.data.status === "0000") {
             // window.open(res.data.session_url, "", "width=800, height=800");
             // window.open(res.data.session_url, "_blank");
+            console.log(res.data.session_url);
             window.open(
                 res.data.session_url,
                 "",
