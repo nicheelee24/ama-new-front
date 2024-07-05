@@ -163,7 +163,7 @@ export const GameList = () => {
 
     const handleGamePlay = async (item) => {
         if (!isLogin) {
-            notifyLogin();
+        //    notifyLogin();
             return;
         }
 
