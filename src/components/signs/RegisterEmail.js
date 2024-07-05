@@ -228,7 +228,7 @@ export default function RegisterEmail({ open, setOpen, type, setType }) {
                 console.error(error);
                 // failConnection()
 
-                toast.error("Sign Up Failed.", {
+                toast.error("Sign Up Failed."+error, {
                     position: "top-right",
                     autoClose: 5000,
                     hideProgressBar: false,

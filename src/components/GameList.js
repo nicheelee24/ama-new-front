@@ -163,12 +163,13 @@ export const GameList = () => {
 
     const handleGamePlay = async (item) => {
         if (!isLogin) {
-        //    notifyLogin();
+            notifyLogin();
             return;
         }
 
         setIsLoading(true);
         const res = await API.getGamePlayUrl(item._id);
+        console.log(res);
         setIsLoading(false);
         if (res.data.status === "0000") {
             // window.open(res.data.session_url, "", "width=800, height=800");
