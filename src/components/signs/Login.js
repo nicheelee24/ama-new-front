@@ -151,7 +151,8 @@ export default function Login({ open, setOpen, type, setType }) {
             .request(options)
             .then(function (response) {
                 if (response.data.status === "0000") {
-                    window.localStorage.setItem("token", response.data.token);
+                    window.localStorage.setItem("token", response.data.token);//
+                    window.localStorage.setItem("phn", response.data.user_phn);
                     API.setAuthToken(response.data.token);
                     setOpen(false);
                     dispatch(setLoginState());

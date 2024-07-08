@@ -22,10 +22,12 @@ import logo19 from "../assets/img/Logo/logo9.png";
 import logo20 from "../assets/img/Logo/Hacksaw Logo/Hacksaw_Logo_White.png";
 import logo22 from "../assets/img/Logo/NLC logo/nolimitcity-assets-pack/nl_white.png";
 import logo24 from "../assets/img/Logo/playngo.png";
-import logo25 from "../assets/img/Logo/logo (12).png";
+import logo25 from "../assets/img/Logo/turbo.png";
+import logo26 from "../assets/img/Logo/smartsoft.png";
+import logo27 from "../assets/img/Logo/evoplay.svg";
 
-import logo28 from "../assets/img/Logo/logo (20).png";
-import logo29 from "../assets/img/Logo/logo (24).png";
+import logo28 from "../assets/img/Logo/funta.png";
+import logo29 from "../assets/img/Logo/peter.png";
 import sexyBaccarat from "../assets/img/Logo/Parlaybay Logo/png/Parlaybay-white.png";
 import evolution from "../assets/img/Logo/Relax Gaming Logo/Relax-Gaming-white.png";
 import playngo from "../assets/img/Logo/Slotmill_Logo/slotmill-logo-all-white-one-line.png";
@@ -40,34 +42,49 @@ export const GameProvider = (props) => {
 
     const Logos = [
         {
+            Logo: logo24,
+            Url: "",
+            platform: "Play'n GO",
+        },
+        {
+            Logo: logo27,
+            Url: "",
+            platform: "Evoplay",
+        },
+        {
             Logo: logo16,
             Url: "",
-            platform: "DCACE",
+            platform: "AvatarUX",
         },
-        // {
-        //     Logo: logo19,
-        //     Url: "",
-        //     platform: "BG",
-        // },
+        {
+            Logo: logo29,
+            Url: "",
+            platform: "Peter Sons",
+        },
         {
             Logo: logo20,
             Url: "",
-            platform: "PT",
+            platform: "Hacksaw Gaming",
+        },
+        {
+            Logo: logo28,
+            Url: "",
+            platform: "FunTa Gaming",
         },
         {
             Logo: logo22,
             Url: "",
-            platform: "PP",
+            platform: "Nolimit City",
         },
         {
             Logo: sexyBaccarat,
             Url: "",
-            platform: "SEXYBCRT",
+            platform: "ParlayBay",
         },
         {
             Logo: evolution,
             Url: "",
-            platform: "EVOLUTION",
+            platform: "Relax Gaming",
         },
         {
             Logo: playngo,
@@ -77,113 +94,24 @@ export const GameProvider = (props) => {
         {
             Logo: logo8,
             Url: "",
-            platform: "yg",
+            platform: "Yggdrasil Gaming",
         },
-        {
-            Logo: logo24,
-            Url: "",
-            platform: "RT",
-        },
+       
         {
             Logo: logo25,
             Url: "",
-            platform: "SPADE",
-        },
-        // {
-        //     Logo: logo27,
-        //     Url: "",
-        //     platform: "VRLOTTO",
-        // },
-        {
-            Logo: logo28,
-            Url: "",
-            platform: "YESBINGO",
+            platform: "Turbo Games (Asia)",
         },
         {
-            Logo: logo2,
+            Logo: logo26,
             Url: "",
-            platform: "FC",
+            platform: "SmartSoft",
         },
-        {
-            Logo: logo4,
-            Url: "",
-            platform: "HORSEBOOK",
-        },
-        {
-            Logo: logo5,
-            Url: "",
-            platform: "PF",
-        },
-        {
-            Logo: logo6,
-            Url: "",
-            platform: "LUCKYPOKER",
-        },
-        {
-            Logo: logo7,
-            Url: "",
-            platform: "JILI",
-        },
-        // {
-        //   Logo: logo8,
-        //   Url: '',
-        //   platform: "KINGMAKER"
-        // },
-        // {
-        //     Logo: logo9,
-        //     Url: "",
-        //     platform: "LUCKYPOKER",
-        // },
-        {
-            Logo: logo10,
-            Url: "",
-            platform: "VENUS",
-        },
-        {
-            Logo: logo11,
-            Url: "",
-            platform: "DRAGOONSOFT",
-        },
-        {
-            Logo: logo12,
-            Url: "",
-            platform: "DRAGOONSOFT",
-        },
-        {
-            Logo: logo13,
-            Url: "",
-            platform: "DRAGOONSOFT",
-        },
-        {
-            Logo: logo14,
-            Url: "",
-            platform: "LUDO",
-        },
-        {
-            Logo: logo15,
-            Url: "",
-            platform: "DRAGOONSOFT",
-        },
-        {
-            Logo: logo17,
-            Url: "",
-            platform: "YL",
-        },
-        {
-            Logo: logo18,
-            Url: "",
-            platform: "PLAY8",
-        },
-        {
-            Logo: logo29,
-            Url: "",
-            platform: "JDB",
-        },
-        {
-            Logo: "",
-            Url: "",
-            platform: "",
-        },
+       
+       
+       
+       
+       
     ];
 
     return (
