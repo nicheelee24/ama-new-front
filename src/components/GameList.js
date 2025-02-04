@@ -273,6 +273,7 @@ export const GameList = () => {
                             <div className="rounder">
                             <div className="card cursor-pointer rounded-lg">
                                 <div className="w-full overflow-hidden rounded-tr-xl rounded-tl-xl flex items-center bg-[var(--secondaryColor)]">
+                                    <div>{item.img}</div>
                                     <LazyLoadImage
                                         src={process.env.REACT_APP_BACKEND +
                                             "/images/" +
