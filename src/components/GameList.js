@@ -39,7 +39,7 @@ export const GameList = () => {
         EGAME: ["FC", "JDB", "PP", "SPADE", "YL"],
         ESPORTS: ["E1SPORT", "SABA"],
         FH: ["FASTSPIN", "FC", "JDB", "JILI", "SPADE", "YL"],
-        LIVE: ["BG", "HORSEBOOK", "PP", "PT", "SEXYBCRT", "SV388", "VENUS"],
+        LIVE: ["BG", "HORSEBOOK", "PP", "PT", "SEXYBCRT", "SV388", "VENUS","7Mojos"],
         // LOTTO: ["VRLOTTO"],
         SLOT: [
             "DRAGOONSOFT",
@@ -273,7 +273,7 @@ export const GameList = () => {
                             <div className="rounder">
                             <div className="card cursor-pointer rounded-lg">
                                 <div className="w-full overflow-hidden rounded-tr-xl rounded-tl-xl flex items-center bg-[var(--secondaryColor)]">
-                                    <div>{item.img}</div>
+                                    
                                     <LazyLoadImage
                                         src={process.env.REACT_APP_BACKEND +
                                             "/images/" +
