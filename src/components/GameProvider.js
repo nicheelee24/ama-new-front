@@ -25,12 +25,12 @@ import logo24 from "../assets/img/Logo/playngo.png";
 import logo25 from "../assets/img/Logo/turbo.png";
 import logo26 from "../assets/img/Logo/smartsoft.png";
 import logo27 from "../assets/img/Logo/evoplay.svg";
-
 import logo28 from "../assets/img/Logo/funta.png";
 import logo29 from "../assets/img/Logo/peter.png";
 import sexyBaccarat from "../assets/img/Logo/Parlaybay Logo/png/Parlaybay-white.png";
 import evolution from "../assets/img/Logo/Relax Gaming Logo/Relax-Gaming-white.png";
 import playngo from "../assets/img/Logo/Slotmill_Logo/slotmill-logo-all-white-one-line.png";
+import mojos from "../assets/img/Logo/mojos.png";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { useNavigate } from "react-router";
@@ -42,9 +42,9 @@ export const GameProvider = (props) => {
 
     const Logos = [
         {
-            Logo: logo24,
+            Logo: mojos,
             Url: "",
-            platform: "DCACE",
+            platform: "7Mojos",
         },
         {
             Logo: logo24,
